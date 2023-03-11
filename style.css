@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #a2a8d3;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin:20px 20px;
+    background: rgba(255, 255, 255, 0.681);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.7);
+}
+.text-area {
+    resize: none;
+    width: 400px;
+    height: 200px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.character-counter{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    justify-content: space-between;
+}
+.character-counter p {
+    color: gray;
+}
+#total-characters {
+    color: blue;
+}
+#remaining{
+    color:orange;
+}
+
